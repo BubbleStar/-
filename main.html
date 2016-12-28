@@ -4,29 +4,40 @@
     <meta charset="UTF-8">
     <title>main</title>
     <link rel="stylesheet" href="src/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/css/style3.css" type="text/css" media="screen, projection">
+    <style>
+        .sectionNav {
+            display: flex;
+            justify-content: space-between;
+        }
+        .sectionNav * {
+            background-color: #888888;
+            width: 33%;
+            height: 30px;
+            text-align: center;
+            vertical-align: middle;
+            color: white;
+        }
+        .active {
+            background-color: #00AAF0;
+        }
+    </style>
 </head>
 <body>
-<div class="container-fluid">
-    <div class="bs-example bs-example-tabs">
-        <ul id="myTab" class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active col-md-4" style="padding: 0px;">
-                <a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">section1</a>
-            </li>
-            <li role="presentation"  class="col-md-4" style="padding: 0px;">
-                <a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="false">section2</a>
-            </li>
-            <li role="presentation" class="col-md-4" style="padding: 0px;">
-                <a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="false">section3</a>
-            </li>
-        </ul>
-        <div id="myTabContent" class="tab-content">
-            <div role="tabpanel" class="tab-pane fade active in" id="home" aria-labelledby="home-tab">
-                <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
-            </div>
-            <div role="tabpanel" class="tab-pane fade" id="profile" aria-labelledby="profile-tab">
-                <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
-            </div>
+<div class="container">
+    <div id="menuNavWrap">
+        <div class="moLogo" style="	background-color:#13345d"><a href="#">
+            <img src="./src/logo.png"></a>
         </div>
+        <div align="center" style="color: #FFFFFF; font-size: 20px; padding-top: 27px">
+            <div class="moNav"><img id="imgAutoTaskTip" src="src/img/Message_tiny.gif"><a target="report" href="Pages/Self.aspx" pid="1" id="aSelf" class="selA" onclick="setLeftMenuFocus(this);">用户中心</a><a href="#" id="aLogout" class="selA">退出</a></div>
+        </div>
+    </div>
+    <br>
+    <div class="sectionNav">
+        <button class="btn active">品牌分析</button>
+        <button class="btn">竞品分析</button>
+        <button class="btn">销量影响分析</button>
     </div>
 </div>
 
