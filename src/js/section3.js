@@ -6,13 +6,13 @@ var myChart = echarts.init(document.getElementById('graph9'));
 
 
 var option = {
-
-    tooltip: {
-        trigger: 'axis',
-        axisPointer: {
-            type: 'shadow'
-        }
-    },
+    //
+    // tooltip: {
+    //     trigger: 'axis',
+    //     axisPointer: {
+    //         type: 'shadow'
+    //     }
+    // },
     grid: {
         left: '3%',
         right: '4%',
@@ -32,6 +32,12 @@ var option = {
             name: '',
             type: 'bar',
             data: [7, 8, 11, 15, 24, 35],
+            barWidth:35,
+            itemStyle:{
+                normal: {
+                    color:'rgb(122,197,167)',
+                }
+            },
             label: {
                 normal: {
                     show: true,
@@ -51,12 +57,12 @@ myChart = echarts.init(document.getElementById('graph10'));
 
 option = {
 
-    tooltip: {
-        trigger: 'axis',
-        axisPointer: {
-            type: 'shadow'
-        }
-    },
+    // tooltip: {
+    //     trigger: 'axis',
+    //     axisPointer: {
+    //         type: 'shadow'
+    //     }
+    // },
     grid: {
         left: '3%',
         right: '4%',
@@ -76,6 +82,12 @@ option = {
             name: '',
             type: 'bar',
             data: [7, 8, 11, 15, 24, 35],
+            barWidth:35,
+            itemStyle:{
+                normal: {
+                    color:'rgb(122,197,167)'
+                }
+            },
             label: {
                 normal: {
                     show: true,
@@ -89,16 +101,17 @@ option = {
 
 // 使用刚指定的配置项和数据显示图表。
 myChart.setOption(option);
+
 myChart = echarts.init(document.getElementById('graph11'));
 
 option = {
 
-    tooltip: {
-        trigger: 'axis',
-        axisPointer: {
-            type: 'shadow'
-        }
-    },
+    // tooltip: {
+    //     trigger: 'axis',
+    //     axisPointer: {
+    //         type: 'shadow'
+    //     }
+    // },
     grid: {
         left: '3%',
         right: '4%',
@@ -118,6 +131,12 @@ option = {
             name: '',
             type: 'bar',
             data: [7, 8, 11, 15, 24, 35],
+            itemStyle:{
+                normal: {
+                    color:'rgb(122,197,167)'
+                }
+            },
+            barWidth:35,
             label: {
                 normal: {
                     show: true,

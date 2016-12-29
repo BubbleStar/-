@@ -12,11 +12,13 @@ var option = {
         trigger: 'axis',
         axisPointer: {
             type: 'shadow'
+        },
+        formatter:function (params) {
+            return  false;
+
         }
     },
-    legend: {
-        data: ['PC端', '移动端']
-    },
+
     grid: {
         left: '3%',
         right: '4%',
@@ -36,6 +38,11 @@ var option = {
             name: 'PC端',
             type: 'bar',
             data: [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98],
+            itemStyle:{
+                normal: {
+                    color:'rgb(122,197,167)'
+                }
+            },
             label: {
                 normal: {
                     show: true,
@@ -48,6 +55,11 @@ var option = {
             name: '移动端',
             type: 'bar',
             data: [76, 76, 76, 76, 76, 76,76,76,76,76,76,76,76],
+            itemStyle:{
+                normal: {
+                    color:'rgb(227,168,160)'
+                }
+            },
             label: {
                 normal: {
                     show: true,
@@ -69,9 +81,7 @@ option = {
     tooltip : {
         trigger: 'axis'
     },
-    legend: {
-        data:['直接访问','搜索引擎']
-    },
+
 
     grid: {
         left: '3%',
@@ -88,29 +98,52 @@ option = {
     ],
     yAxis : [
         {
-            type : 'value'
+            type : 'value',
+            name:'关注指数',
         }
     ],
     series : [
         {
-            name:'直接访问',
+            name:'PC端',
             type:'line',
             stack: '总量',
             areaStyle: {normal: {}},
+            itemStyle:{
+                normal: {
+                    color:'rgb(122,197,167)'
+                }
+            },
+
             data:[320, 332, 301, 334, 390, 330, 320]
         },
         {
-            name:'搜索引擎',
+            name:'移动端',
             type:'line',
             stack: '总量',
-            label: {
+            itemStyle:{
                 normal: {
-                    show: true,
-                    position: 'top'
+                    color:'rgb(227,168,160)'
                 }
             },
+
+            // label: {
+            //     normal: {
+            //         show: true,
+            //         position: 'top'
+            //     }
+            // },
             areaStyle: {normal: {}},
             data:[820, 932, 901, 934, 1290, 1330, 1320]
+        },
+        {
+            name: '平均值',
+            type: 'line',
+            data:[400, 500, 408, 655, 700, 500, 600],
+            itemStyle:{
+                normal: {
+                    color:'yellow'
+                }
+            },
         }
     ]
 };
@@ -128,10 +161,10 @@ option = {
         trigger: 'axis',
         axisPointer: {
             type: 'shadow'
+        },
+        formatter:function (params) {
+            return  false;
         }
-    },
-    legend: {
-        data: ['PC端', '移动端']
     },
     grid: {
         left: '3%',
@@ -152,6 +185,11 @@ option = {
             name: 'PC端',
             type: 'bar',
             data: [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98],
+            itemStyle:{
+                normal: {
+                    color:'rgb(122,197,167)'
+                }
+            },
             label: {
                 normal: {
                     show: true,
@@ -164,6 +202,11 @@ option = {
             name: '移动端',
             type: 'bar',
             data: [76, 76, 76, 76, 76, 76,76,76,76,76,76,76,76],
+            itemStyle:{
+                normal: {
+                    color:'rgb(227,168,160)'
+                }
+            },
             label: {
                 normal: {
                     show: true,
@@ -185,9 +228,6 @@ option = {
     tooltip : {
         trigger: 'axis'
     },
-    legend: {
-        data:['直接访问','搜索引擎']
-    },
 
     grid: {
         left: '3%',
@@ -204,29 +244,52 @@ option = {
     ],
     yAxis : [
         {
-            type : 'value'
+            type : 'value',
+            name:'关注指数',
         }
-    ],
+
+
+],
     series : [
         {
-            name:'直接访问',
+            name:'PC端',
             type:'line',
             stack: '总量',
             areaStyle: {normal: {}},
+            itemStyle:{
+                normal: {
+                    color:'rgb(122,197,167)'
+                }
+            },
             data:[320, 332, 301, 334, 390, 330, 320]
         },
         {
-            name:'搜索引擎',
+            name:'移动端',
             type:'line',
             stack: '总量',
-            label: {
+            itemStyle:{
                 normal: {
-                    show: true,
-                    position: 'top'
+                    color:'rgb(227,168,160)'
                 }
             },
+            // label: {
+            //     normal: {
+            //         show: true,
+            //         position: 'top'
+            //     }
+            // },
             areaStyle: {normal: {}},
             data:[820, 932, 901, 934, 1290, 1330, 1320]
+        },
+        {
+            name: '平均值',
+            type: 'line',
+            data:[400, 500, 408, 655, 700, 500, 600],
+            itemStyle:{
+                normal: {
+                    color:'yellow'
+                }
+            },
         }
     ]
 };
@@ -243,10 +306,10 @@ option = {
         trigger: 'axis',
         axisPointer: {
             type: 'shadow'
+        },
+        formatter:function (params) {
+            return  false;
         }
-    },
-    legend: {
-        data: ['PC端', '移动端']
     },
     grid: {
         left: '3%',
@@ -267,6 +330,11 @@ option = {
             name: 'PC端',
             type: 'bar',
             data: [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98],
+            itemStyle:{
+                normal: {
+                    color:'rgb(122,197,167)'
+                }
+            },
             label: {
                 normal: {
                     show: true,
@@ -279,6 +347,11 @@ option = {
             name: '移动端',
             type: 'bar',
             data: [76, 76, 76, 76, 76, 76,76,76,76,76,76,76,76],
+            itemStyle:{
+                normal: {
+                    color:'rgb(227,168,160)'
+                }
+            },
             label: {
                 normal: {
                     show: true,
@@ -286,10 +359,34 @@ option = {
                     formatter: '{c} %'
                 }
             }
-        },
+        }
     ]
 };
 
 // 使用刚指定的配置项和数据显示图表。
+myChart.setOption(option);
+
+myChart = echarts.init(document.getElementById('graph6'));
+option = {
+    tooltip : {
+        trigger: 'axis'
+    },
+    xAxis: {
+        data: ['周一', '周二', '周三', '周四', '周五', '周六', '周日']
+    },
+    yAxis: {
+        name:'关注指数'
+    },
+    series: [{
+        name: '平均值',
+        type: 'line',
+        data:[220, 182, 191, 234, 290, 330, 310],
+        itemStyle:{
+            normal: {
+                color:'yellow'
+            }
+        },
+    }]
+};
 myChart.setOption(option);
 
