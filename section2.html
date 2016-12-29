@@ -50,16 +50,27 @@
         <h4>1.关注指数</h4>
         <div>
             <div class="col-md-6 section">
-                <div id="brand1" style="width: 100%;height:100%;"></div>
+                <div id="graph1" style="width: 100%;height:100%;"></div>
             </div>
             <div class="col-md-6 section">
-                <div id="brand2" style="width: 100%;height:100%;"></div>
+                <div id="graph2" style="width: 100%;height:100%;"></div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h4>2.购买指数</h4>
+        <div>
+            <div class="col-md-6 section">
+                <div id="graph3" style="width: 100%;height:100%;"></div>
+            </div>
+            <div class="col-md-6 section">
+                <div id="graph4" style="width: 100%;height:100%;"></div>
             </div>
         </div>
     </div>
 </div>
 
-</div>
+
 
 
 
@@ -69,7 +80,7 @@
 
 <script>
     // 基于准备好的dom，初始化echarts实例
-    var myChart = echarts.init(document.getElementById('brand1'));
+    var myChart = echarts.init(document.getElementById('graph1'));
 
 
     var option = {
@@ -130,7 +141,7 @@
 
 </script>
 <script>
-    var myChart = echarts.init(document.getElementById('brand2'));
+    var myChart = echarts.init(document.getElementById('graph2'));
     var option = {
 
         tooltip : {
@@ -181,6 +192,69 @@
             }
         ]
     };
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
+
+</script>
+
+<script>
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('graph3'));
+
+
+    var option = {
+
+        tooltip: {
+            trigger: 'axis',
+            axisPointer: {
+                type: 'shadow'
+            }
+        },
+        legend: {
+            data: ['PC端', '移动端']
+        },
+        grid: {
+            left: '3%',
+            right: '4%',
+            bottom: '3%',
+            containLabel: true
+        },
+        xAxis: {
+            type: 'value',
+            boundaryGap: [0, 0.01]
+        },
+        yAxis: {
+            type: 'category',
+            data: ['13、x品牌','12、x品牌','11、OPPO','10、x品牌','9、x品牌','8、x品牌','7、x品牌','6、x品牌','5、三星','4、小米','3、魅族','2、华为','1、苹果']
+        },
+        series: [
+            {
+                name: 'PC端',
+                type: 'bar',
+                data: [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98],
+                label: {
+                    normal: {
+                        show: true,
+                        position: 'right',
+                        formatter: '{c} %'
+                    }
+                }
+            },
+            {
+                name: '移动端',
+                type: 'bar',
+                data: [76, 76, 76, 76, 76, 76,76,76,76,76,76,76,76],
+                label: {
+                    normal: {
+                        show: true,
+                        position: 'right',
+                        formatter: '{c} %'
+                    }
+                }
+            },
+        ]
+    };
+
     // 使用刚指定的配置项和数据显示图表。
     myChart.setOption(option);
 

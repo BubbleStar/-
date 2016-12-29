@@ -18,7 +18,7 @@
 /*======基本样式===============================================================================*/
 html, body {
 	height:100%;
-	overflow:hidden;
+	/*overflow:hidden;*/
 	SCROLLBAR-ARROW-COLOR:#FFFFFF;
 	/*SCROLLBAR-FACE-COLOR:#58B5E1;*/
 	SCROLLBAR-FACE-COLOR:#bbbbbb;
