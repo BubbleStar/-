@@ -52,6 +52,11 @@ var option = {
 // 使用刚指定的配置项和数据显示图表。
 myChart.setOption(option);
 
+myChart.on('click', function (params) {
+    // 控制台打印数据的名称
+    console.log(params.dataIndex);
+});
+
 myChart = echarts.init(document.getElementById('graph10'));
 
 

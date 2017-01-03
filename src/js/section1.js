@@ -17,6 +17,14 @@
 // console.log(line_date);
 
 // console.log(isNaN("0"));
+
+var focus = "";
+var bar;
+var line;
+
+
+var barTotal = [];
+var lineTotal = [];
 $.post(
     "../shopIndex/selectIndex.do", {
         data: JSON.stringify(req),
@@ -31,30 +39,15 @@ $.post(
         focus = res.focus_index;
         bar = focus.bar;
         line = focus.line;
-        // console.log(bar);
-        // console.log(line);
-        // for(var i=0; i<bar.length; i++){
-        //     bar_brand.push(bar[i].product_brand);
-        // }
-        // for(i=0; i<bar.length; i++){
-        //     bar_mobile.push(bar[i].mobile);
-        // }
-        // for(i=0; i<bar.length; i++){
-        //     bar_pc.push(bar[i].pc);
-        // }
-        // line = focus.line;
-        // for(i=0; i<line.length; i++){
-        //     line_pc.push(line[i].pc);
-        // }
-        // for(i=0; i<line.length; i++){
-        //     line_mobile.push(line[i].mobile);
-        // }
-        // for(i=0; i<line.length; i++){
-        //     line_average.push(line[i].average);
-        // }
-        // for(i=0; i<line.length; i++){
-        //     line_date.push(line[i].date_id);
-        // }
+
+        for (var i = 0; i < bar.pc.length; i++) {
+          barTotal[i] = bar.pc[i] + bar.mobile[i];
+        }
+
+        for (var i = 0; i < line.pc.length; i++) {
+          lineTotal[i] = line.pc[i] + line.mobile[i];
+        }
+
 
         // 基于准备好的dom，初始化echarts实例
         var myChart = echarts.init(document.getElementById('graph1'));
@@ -88,11 +81,12 @@ $.post(
                 data: bar.brand
                     // data : a
             },
-            series: [{
-                name: 'PC端',
+            series: [
+              {
+                name: '关注指数',
                 type: 'bar',
                 // data: [98, 98, 98],
-                data: bar.pc,
+                data: barTotal,
                 itemStyle: {
                     normal: {
                         color: 'rgb(122,197,167)'
@@ -105,99 +99,140 @@ $.post(
                         // formatter: '{c} %'
                     }
                 }
-            }, {
-                name: '移动端',
-                type: 'bar',
-                // data: [275, 137.5, 275],
-                data: bar.mobile,
-                itemStyle: {
-                    normal: {
-                        color: 'rgb(227,168,160)'
-                    }
-                },
-                label: {
-                    normal: {
-                        show: true,
-                        position: 'right',
-                        // formatter: '{c} %'
-                    }
-                }
-            }, ]
+              }
+            //   {
+            //     name: 'PC端',
+            //     type: 'bar',
+            //     // data: [98, 98, 98],
+            //     data: bar.pc,
+            //     itemStyle: {
+            //         normal: {
+            //             color: 'rgb(122,197,167)'
+            //         }
+            //     },
+            //     label: {
+            //         normal: {
+            //             show: true,
+            //             position: 'right',
+            //             // formatter: '{c} %'
+            //         }
+            //     }
+            //   }, {
+            //     name: '移动端',
+            //     type: 'bar',
+            //     // data: [275, 137.5, 275],
+            //     data: bar.mobile,
+            //     itemStyle: {
+            //         normal: {
+            //             color: 'rgb(227,168,160)'
+            //         }
+            //     },
+            //     label: {
+            //         normal: {
+            //             show: true,
+            //             position: 'right',
+            //             // formatter: '{c} %'
+            //         }
+            //     }
+            // }
+           ]
         };
 
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
 
+        function showLine(index) {
+          myChart = echarts.init(document.getElementById('graph2'));
+          option = {
 
-        myChart = echarts.init(document.getElementById('graph2'));
-        option = {
+              tooltip: {
+                  trigger: 'axis'
+              },
 
-            tooltip: {
-                trigger: 'axis'
-            },
+              grid: {
+                  left: '3%',
+                  right: '4%',
+                  bottom: '3%',
+                  containLabel: true
+              },
+              xAxis: [{
+                  type: 'category',
+                  boundaryGap: false,
+                  data: line[index].date
+                  // data : ['20161120','20161121','20161122','20161123','20161124','20161125','20161126','20161127','20161128','20161129','20161130','20161201','20161202','20161203','20161204','20161205','20161206','20161207','20161208','20161209','20161210','20161211','20161212','20161213','20161214','20161215','20161216','20161217','20161218','20161219']
+              }],
+              yAxis: [{
+                  type: 'value',
+                  name: '关注指数',
+              }],
+              series: [
+                {
+                  name: '关注指数',
+                  type: 'line',
+                  stack: '总量',
+                  areaStyle: { normal: {} },
+                  itemStyle: {
+                      normal: {
+                         color: 'yellow'
+                      }
+                  },
+                  data: line[index].average
+                      // data:[320, 332, 301, 334, 390, 330, 320,322,765,452,120,123,198,256,450,320, 332, 301, 334, 390, 330, 320,322,765,452,120,123,198,256,450]
+                 }
 
 
-            grid: {
-                left: '3%',
-                right: '4%',
-                bottom: '3%',
-                containLabel: true
-            },
-            xAxis: [{
-                type: 'category',
-                boundaryGap: false,
-                data: line.date
-                    // data : ['20161120','20161121','20161122','20161123','20161124','20161125','20161126','20161127','20161128','20161129','20161130','20161201','20161202','20161203','20161204','20161205','20161206','20161207','20161208','20161209','20161210','20161211','20161212','20161213','20161214','20161215','20161216','20161217','20161218','20161219']
-            }],
-            yAxis: [{
-                type: 'value',
-                name: '关注指数',
-            }],
-            series: [{
-                name: 'PC端',
-                type: 'line',
-                stack: '总量',
-                areaStyle: { normal: {} },
-                itemStyle: {
-                    normal: {
-                        color: 'rgb(122,197,167)'
-                    }
-                },
-                data: line.pc
-                    // data:[320, 332, 301, 334, 390, 330, 320,322,765,452,120,123,198,256,450,320, 332, 301, 334, 390, 330, 320,322,765,452,120,123,198,256,450]
-            }, {
-                name: '移动端',
-                type: 'line',
-                stack: '总量',
-                itemStyle: {
-                    normal: {
-                        color: 'rgb(227,168,160)'
-                    }
-                },
+              //   {
+              //     name: 'PC端',
+              //     type: 'line',
+              //     stack: '总量',
+              //     areaStyle: { normal: {} },
+              //     itemStyle: {
+              //         normal: {
+              //             color: 'rgb(122,197,167)'
+              //         }
+              //     },
+              //     data: line.pc
+              //         // data:[320, 332, 301, 334, 390, 330, 320,322,765,452,120,123,198,256,450,320, 332, 301, 334, 390, 330, 320,322,765,452,120,123,198,256,450]
+              //    }, {
+              //     name: '移动端',
+              //     type: 'line',
+              //     stack: '总量',
+              //     itemStyle: {
+              //         normal: {
+              //             color: 'rgb(227,168,160)'
+              //         }
+              //     },
+              //
+              //     // label: {
+              //     //     normal: {
+              //     //         show: true,
+              //     //         position: 'top'
+              //     //     }
+              //     // },
+              //     areaStyle: { normal: {} },
+              //     // data:[820, 932, 901, 934, 1290, 1330, 1320,320, 332, 301, 334,432,120,356,723,820, 932, 901, 934, 1290, 1330, 1320,320, 332, 301, 334,432,120,356,723]
+              //     data: line.mobile
+              // }, {
+              //     name: '平均值',
+              //     type: 'line',
+              //     // data:[400, 500, 408, 655, 700, 500, 600,126,342,500,200,342,376,854,109,400, 500, 408, 655, 700, 500, 600,126,342,500,200,342,376,854,109],
+              //     data: line.average,
+              //     itemStyle: {
+              //         normal: {
+              //             color: 'yellow'
+              //         }
+              //     },
+              // }
+            ]
+          };
+          // 使用刚指定的配置项和数据显示图表。
+          myChart.setOption(option);
+        }
 
-                // label: {
-                //     normal: {
-                //         show: true,
-                //         position: 'top'
-                //     }
-                // },
-                areaStyle: { normal: {} },
-                // data:[820, 932, 901, 934, 1290, 1330, 1320,320, 332, 301, 334,432,120,356,723,820, 932, 901, 934, 1290, 1330, 1320,320, 332, 301, 334,432,120,356,723]
-                data: line.mobile
-            }, {
-                name: '平均值',
-                type: 'line',
-                // data:[400, 500, 408, 655, 700, 500, 600,126,342,500,200,342,376,854,109,400, 500, 408, 655, 700, 500, 600,126,342,500,200,342,376,854,109],
-                data: line.average,
-                itemStyle: {
-                    normal: {
-                        color: 'yellow'
-                    }
-                },
-            }]
-        };
-        // 使用刚指定的配置项和数据显示图表。
-        myChart.setOption(option);
+
+        myChart.on('click', function (params) {
+            showLine(params.dataIndex);
+        });
 
 
         // 基于准备好的dom，初始化echarts实例
