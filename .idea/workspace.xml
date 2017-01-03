@@ -2,1005 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf1efd73-2348-43ef-a244-3ca7800ae12a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/.github/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/.github/ISSUE_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/asset/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/dist/echarts.common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/dist/echarts.common.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/dist/echarts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/dist/echarts.simple.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/dist/echarts.simple.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/dist/extension/bmap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/dist/extension/bmap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/dist/extension/dataTool.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/dist/extension/dataTool.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/echarts.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/extension/bmap/BMapCoordSys.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/extension/bmap/BMapModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/extension/bmap/BMapView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/extension/bmap/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/extension/bmap/bmap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/extension/dataTool/gexf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/extension/dataTool/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/extension/dataTool/prepareBoxplotData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/extension/dataTool/quantile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/extension/echarts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/extension/webpack.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/index.common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/index.simple.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/CoordinateSystem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/ExtensionAPI.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/action/createDataSelectAction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/action/geoRoam.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/action/roamHelper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/bar/BarSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/bar/BarView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/bar/barItemStyle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/boxplot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/boxplot/BoxplotSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/boxplot/BoxplotView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/boxplot/boxplotLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/boxplot/boxplotVisual.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/candlestick.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/candlestick/CandlestickSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/candlestick/CandlestickView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/candlestick/candlestickLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/candlestick/candlestickVisual.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/candlestick/preprocessor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/chord.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/chord/ChordSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/chord/ChordView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/chord/Ribbon.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/chord/chordCircularLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/effectScatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/effectScatter/EffectScatterSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/effectScatter/EffectScatterView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/funnel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/funnel/FunnelSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/funnel/FunnelView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/funnel/funnelLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/gauge.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/gauge/GaugeSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/gauge/GaugeView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/gauge/PointerPath.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/graph.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/graph/GraphSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/graph/GraphView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/graph/adjustEdge.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/graph/backwardCompat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/graph/categoryFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/graph/categoryVisual.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/graph/circularLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/graph/circularLayoutHelper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/graph/createView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/graph/edgeVisual.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/graph/forceHelper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/graph/forceLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/graph/roamAction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/graph/simpleLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/graph/simpleLayoutEdge.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/graph/simpleLayoutHelper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/heatmap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/heatmap/HeatmapLayer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/heatmap/HeatmapSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/heatmap/HeatmapView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/helper/EffectLine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/helper/EffectPolyline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/helper/EffectSymbol.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/helper/LargeLineDraw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/helper/LargeSymbolDraw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/helper/Line.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/helper/LineDraw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/helper/LinePath.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/helper/Polyline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/helper/Symbol.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/helper/SymbolDraw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/helper/WhiskerBoxDraw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/helper/createGraphFromNodeEdge.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/helper/createGraphFromNodeMatrix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/helper/createListFromArray.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/helper/whiskerBoxCommon.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/line.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/line/LineSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/line/LineView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/line/lineAnimationDiff.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/line/poly.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/lines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/lines/LinesSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/lines/LinesView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/lines/linesLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/map/MapSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/map/MapView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/map/backwardCompat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/map/mapDataStatistic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/map/mapSymbolLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/map/mapVisual.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/parallel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/parallel/ParallelSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/parallel/ParallelView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/parallel/parallelVisual.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/pie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/pie/PieSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/pie/PieView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/pie/labelLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/pie/pieLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/radar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/radar/RadarSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/radar/RadarView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/radar/backwardCompat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/radar/radarLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/sankey.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/sankey/SankeySeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/sankey/SankeyView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/sankey/sankeyLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/sankey/sankeyVisual.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/scatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/scatter/ScatterSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/scatter/ScatterView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/themeRiver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/themeRiver/ThemeRiverSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/themeRiver/ThemeRiverView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/themeRiver/themeRiverLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/themeRiver/themeRiverVisual.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/treemap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/treemap/Breadcrumb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/treemap/TreemapSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/treemap/TreemapView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/treemap/helper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/treemap/treemapAction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/treemap/treemapLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/chart/treemap/treemapVisual.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/angleAxis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/axis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/axis/AngleAxisView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/axis/AxisBuilder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/axis/AxisView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/axis/ParallelAxisView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/axis/RadiusAxisView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/axis/SingleAxisView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/axis/parallelAxisAction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/brush.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/brush/BrushModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/brush/BrushView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/brush/brushAction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/brush/helper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/brush/preprocessor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/brush/selector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/brush/visualEncoding.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/dataZoom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/dataZoom/AxisProxy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/dataZoom/DataZoomModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/dataZoom/DataZoomView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/dataZoom/InsideZoomModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/dataZoom/InsideZoomView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/dataZoom/SelectZoomModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/dataZoom/SelectZoomView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/dataZoom/SliderZoomModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/dataZoom/SliderZoomView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/dataZoom/dataZoomAction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/dataZoom/dataZoomProcessor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/dataZoom/helper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/dataZoom/history.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/dataZoom/roams.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/dataZoom/typeDefaulter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/dataZoomInside.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/dataZoomSelect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/geo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/geo/GeoView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/graphic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/grid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/helper/BrushController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/helper/MapDraw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/helper/RoamController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/helper/SelectController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/helper/brushHelper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/helper/interactionMutex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/helper/listComponent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/helper/selectableMixin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/helper/sliderMove.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/legend.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/legend/LegendModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/legend/LegendView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/legend/legendAction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/legend/legendFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/markArea.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/markLine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/markPoint.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/marker/MarkAreaModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/marker/MarkAreaView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/marker/MarkLineModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/marker/MarkLineView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/marker/MarkPointModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/marker/MarkPointView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/marker/MarkerModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/marker/MarkerView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/marker/markerHelper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/parallel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/parallelAxis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/polar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/radar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/radar/RadarView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/radiusAxis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/single.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/singleAxis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/timeline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/timeline/SliderTimelineModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/timeline/SliderTimelineView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/timeline/TimelineAxis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/timeline/TimelineModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/timeline/TimelineView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/timeline/preprocessor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/timeline/timelineAction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/timeline/typeDefaulter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/title.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/toolbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/toolbox/ToolboxModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/toolbox/ToolboxView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/toolbox/feature/AreaSelect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/toolbox/feature/Brush.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/toolbox/feature/DataView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/toolbox/feature/DataZoom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/toolbox/feature/MagicType.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/toolbox/feature/Restore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/toolbox/feature/SaveAsImage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/toolbox/featureManager.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/tooltip/TooltipContent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/tooltip/TooltipModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/tooltip/TooltipView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/visualMap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/visualMap/ContinuousModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/visualMap/ContinuousView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/visualMap/PiecewiseModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/visualMap/PiecewiseView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/visualMap/VisualMapModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/visualMap/VisualMapView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/visualMap/helper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/visualMap/preprocessor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/visualMap/typeDefaulter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/visualMap/visualCoding.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/visualMap/visualEncoding.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/visualMap/visualMapAction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/visualMapContinuous.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/component/visualMapPiecewise.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/Axis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/View.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/axisDefault.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/axisHelper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/axisModelCommonMixin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/axisModelCreator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/axisModelZoomMixin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/cartesian/Axis2D.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/cartesian/AxisModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/cartesian/Cartesian.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/cartesian/Cartesian2D.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/cartesian/Grid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/cartesian/GridModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/cartesian/axisLabelInterval.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/geo/Geo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/geo/GeoModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/geo/Region.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/geo/fix/geoCoord.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/geo/fix/nanhai.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/geo/fix/textCoord.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/geo/geoCreator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/geo/parseGeoJson.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/parallel/AxisModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/parallel/Parallel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/parallel/ParallelAxis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/parallel/ParallelModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/parallel/parallelCreator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/parallel/parallelPreprocessor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/polar/AngleAxis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/polar/AxisModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/polar/Polar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/polar/PolarModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/polar/RadiusAxis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/polar/polarCreator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/radar/IndicatorAxis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/radar/Radar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/radar/RadarModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/single/AxisModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/single/Single.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/single/SingleAxis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/coord/single/singleCreator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/data/DataDiffer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/data/Graph.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/data/List.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/data/Tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/data/helper/completeDimensions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/data/helper/linkList.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/echarts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/layout/barGrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/layout/points.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/loading/default.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/model/Component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/model/Global.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/model/Model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/model/OptionManager.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/model/Series.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/model/globalDefault.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/model/mixin/areaStyle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/model/mixin/boxLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/model/mixin/colorPalette.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/model/mixin/itemStyle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/model/mixin/lineStyle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/model/mixin/makeStyleMapper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/model/mixin/textStyle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/preprocessor/backwardCompat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/preprocessor/helper/compatStyle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/processor/dataFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/processor/dataSample.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/scale/Interval.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/scale/Log.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/scale/Ordinal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/scale/Scale.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/scale/Time.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/util/KDTree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/util/animation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/util/array/nest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/util/clazz.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/util/component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/util/format.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/util/graphic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/util/layout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/util/model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/util/number.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/util/quickSelect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/util/symbol.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/util/throttle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/view/Chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/view/Component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/visual/VisualMapping.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/visual/dataColor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/visual/seriesColor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/visual/symbol.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/visual/visualDefault.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/visual/visualSelectable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/lib/visual/visualSolution.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/china-contour.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/china.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/anhui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/aomen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/beijing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/chongqing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/fujian.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/gansu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/guangdong.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/guangxi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/guizhou.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/hainan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/hebei.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/heilongjiang.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/henan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/hubei.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/hunan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/jiangsu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/jiangxi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/jilin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/liaoning.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/neimenggu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/ningxia.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/qinghai.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/shandong.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/shanghai.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/shanxi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/shanxi1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/sichuan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/taiwan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/tianjin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/xianggang.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/xinjiang.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/xizang.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/yunnan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/province/zhejiang.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/js/world.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/china-cities.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/china-contour.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/china.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/anhui.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/aomen.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/beijing.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/chongqing.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/fujian.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/gansu.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/guangdong.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/guangxi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/guizhou.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/hainan.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/hebei.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/heilongjiang.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/henan.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/hubei.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/hunan.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/jiangsu.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/jiangxi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/jilin.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/liaoning.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/neimenggu.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/ningxia.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/qinghai.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/shandong.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/shanghai.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/shanxi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/shanxi1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/sichuan.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/taiwan.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/tianjin.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/xianggang.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/xinjiang.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/xizang.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/yunnan.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/province/zhejiang.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/json/world.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/china-contour.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/china.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/anhui.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/aomen.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/beijing.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/chongqing.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/fujian.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/gansu.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/guangdong.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/guangxi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/guizhou.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/hainan.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/hebei.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/heilongjiang.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/henan.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/hubei.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/hunan.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/jiangsu.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/jiangxi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/jilin.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/liaoning.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/neimenggu.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/ningxia.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/qinghai.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/shandong.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/shanghai.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/shanxi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/shanxi1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/sichuan.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/tianjin.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/xianggang.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/xinjiang.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/xizang.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/yunnan.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/province/zhejiang.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/world-fixed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/world-raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/map/raw/world.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/CoordinateSystem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/ExtensionAPI.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/action/createDataSelectAction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/action/geoRoam.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/action/roamHelper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/bar/BarSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/bar/BarView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/bar/barItemStyle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/boxplot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/boxplot/BoxplotSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/boxplot/BoxplotView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/boxplot/boxplotLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/boxplot/boxplotVisual.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/candlestick.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/candlestick/CandlestickSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/candlestick/CandlestickView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/candlestick/candlestickLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/candlestick/candlestickVisual.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/candlestick/preprocessor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/chord.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/chord/ChordSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/chord/ChordView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/chord/Ribbon.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/chord/chordCircularLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/effectScatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/effectScatter/EffectScatterSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/effectScatter/EffectScatterView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/funnel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/funnel/FunnelSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/funnel/FunnelView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/funnel/funnelLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/gauge.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/gauge/GaugeSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/gauge/GaugeView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/gauge/PointerPath.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/graph.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/graph/GraphSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/graph/GraphView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/graph/adjustEdge.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/graph/backwardCompat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/graph/categoryFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/graph/categoryVisual.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/graph/circularLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/graph/circularLayoutHelper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/graph/createView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/graph/edgeVisual.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/graph/forceHelper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/graph/forceLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/graph/roamAction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/graph/simpleLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/graph/simpleLayoutEdge.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/graph/simpleLayoutHelper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/heatmap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/heatmap/HeatmapLayer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/heatmap/HeatmapSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/heatmap/HeatmapView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/helper/EffectLine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/helper/EffectPolyline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/helper/EffectSymbol.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/helper/LargeLineDraw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/helper/LargeSymbolDraw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/helper/Line.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/helper/LineDraw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/helper/LinePath.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/helper/Polyline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/helper/Symbol.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/helper/SymbolDraw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/helper/WhiskerBoxDraw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/helper/createGraphFromNodeEdge.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/helper/createGraphFromNodeMatrix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/helper/createListFromArray.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/helper/whiskerBoxCommon.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/line.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/line/LineSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/line/LineView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/line/lineAnimationDiff.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/line/poly.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/lines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/lines/LinesSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/lines/LinesView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/lines/linesLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/map/MapSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/map/MapView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/map/backwardCompat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/map/mapDataStatistic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/map/mapSymbolLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/map/mapVisual.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/parallel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/parallel/ParallelSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/parallel/ParallelView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/parallel/parallelVisual.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/pie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/pie/PieSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/pie/PieView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/pie/labelLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/pie/pieLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/radar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/radar/RadarSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/radar/RadarView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/radar/backwardCompat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/radar/radarLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/sankey.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/sankey/SankeySeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/sankey/SankeyView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/sankey/sankeyLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/sankey/sankeyVisual.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/scatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/scatter/ScatterSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/scatter/ScatterView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/themeRiver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/themeRiver/ThemeRiverSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/themeRiver/ThemeRiverView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/themeRiver/themeRiverLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/themeRiver/themeRiverVisual.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/treemap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/treemap/Breadcrumb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/treemap/TreemapSeries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/treemap/TreemapView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/treemap/helper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/treemap/treemapAction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/treemap/treemapLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/chart/treemap/treemapVisual.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/angleAxis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/axis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/axis/AngleAxisView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/axis/AxisBuilder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/axis/AxisView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/axis/ParallelAxisView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/axis/RadiusAxisView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/axis/SingleAxisView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/axis/parallelAxisAction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/brush.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/brush/BrushModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/brush/BrushView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/brush/brushAction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/brush/preprocessor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/brush/selector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/brush/visualEncoding.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/dataZoom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/dataZoom/AxisProxy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/dataZoom/DataZoomModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/dataZoom/DataZoomView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/dataZoom/InsideZoomModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/dataZoom/InsideZoomView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/dataZoom/SelectZoomModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/dataZoom/SelectZoomView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/dataZoom/SliderZoomModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/dataZoom/SliderZoomView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/dataZoom/dataZoomAction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/dataZoom/dataZoomProcessor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/dataZoom/helper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/dataZoom/history.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/dataZoom/roams.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/dataZoom/typeDefaulter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/dataZoomInside.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/dataZoomSelect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/geo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/geo/GeoView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/graphic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/grid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/helper/BrushController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/helper/MapDraw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/helper/RoamController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/helper/brushHelper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/helper/interactionMutex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/helper/listComponent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/helper/selectableMixin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/helper/sliderMove.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/legend.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/legend/LegendModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/legend/LegendView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/legend/legendAction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/legend/legendFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/markArea.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/markLine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/markPoint.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/marker/MarkAreaModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/marker/MarkAreaView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/marker/MarkLineModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/marker/MarkLineView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/marker/MarkPointModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/marker/MarkPointView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/marker/MarkerModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/marker/MarkerView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/marker/markerHelper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/parallel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/parallelAxis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/polar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/radar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/radar/RadarView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/radiusAxis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/singleAxis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/timeline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/timeline/SliderTimelineModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/timeline/SliderTimelineView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/timeline/TimelineAxis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/timeline/TimelineModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/timeline/TimelineView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/timeline/preprocessor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/timeline/timelineAction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/timeline/typeDefaulter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/title.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/toolbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/toolbox/ToolboxModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/toolbox/ToolboxView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/toolbox/feature/Brush.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/toolbox/feature/DataView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/toolbox/feature/DataZoom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/toolbox/feature/MagicType.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/toolbox/feature/Restore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/toolbox/feature/SaveAsImage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/toolbox/featureManager.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/tooltip/TooltipContent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/tooltip/TooltipModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/tooltip/TooltipView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/visualMap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/visualMap/ContinuousModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/visualMap/ContinuousView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/visualMap/PiecewiseModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/visualMap/PiecewiseView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/visualMap/VisualMapModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/visualMap/VisualMapView.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/visualMap/helper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/visualMap/preprocessor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/visualMap/typeDefaulter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/visualMap/visualEncoding.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/visualMap/visualMapAction.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/visualMapContinuous.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/component/visualMapPiecewise.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/Axis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/View.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/axisDefault.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/axisHelper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/axisModelCommonMixin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/axisModelCreator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/axisModelZoomMixin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/cartesian/Axis2D.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/cartesian/AxisModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/cartesian/Cartesian.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/cartesian/Cartesian2D.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/cartesian/Grid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/cartesian/GridModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/cartesian/axisLabelInterval.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/geo/Geo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/geo/GeoModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/geo/Region.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/geo/fix/geoCoord.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/geo/fix/nanhai.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/geo/fix/textCoord.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/geo/geoCreator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/geo/parseGeoJson.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/parallel/AxisModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/parallel/Parallel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/parallel/ParallelAxis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/parallel/ParallelModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/parallel/parallelCreator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/parallel/parallelPreprocessor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/polar/AngleAxis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/polar/AxisModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/polar/Polar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/polar/PolarModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/polar/RadiusAxis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/polar/polarCreator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/radar/IndicatorAxis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/radar/Radar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/radar/RadarModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/single/AxisModel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/single/Single.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/single/SingleAxis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/coord/single/singleCreator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/data/DataDiffer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/data/Graph.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/data/List.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/data/Tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/data/helper/completeDimensions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/data/helper/linkList.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/echarts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/layout/barGrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/layout/points.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/loading/default.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/model/Component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/model/Global.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/model/Model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/model/OptionManager.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/model/Series.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/model/globalDefault.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/model/mixin/areaStyle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/model/mixin/boxLayout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/model/mixin/colorPalette.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/model/mixin/itemStyle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/model/mixin/lineStyle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/model/mixin/makeStyleMapper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/model/mixin/textStyle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/preprocessor/backwardCompat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/preprocessor/helper/compatStyle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/processor/dataFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/processor/dataSample.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/scale/Interval.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/scale/Log.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/scale/Ordinal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/scale/Scale.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/scale/Time.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/util/KDTree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/util/animation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/util/array/nest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/util/clazz.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/util/component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/util/format.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/util/graphic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/util/layout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/util/model.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/util/number.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/util/quickSelect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/util/symbol.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/util/throttle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/view/Chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/view/Component.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/visual/VisualMapping.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/visual/dataColor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/visual/seriesColor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/visual/symbol.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/visual/visualDefault.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/src/visual/visualSolution.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/theme/dark.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/theme/default.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/theme/halloween.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/theme/infographic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/theme/macarons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/theme/roma.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/theme/shine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/theme/vintage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/echarts/webpack.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/.jscsrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/.jshintignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/jsdoc.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/Element.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/Handler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/Layer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/Painter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/Storage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/animation/Animation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/animation/Animator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/animation/Clip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/animation/easing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/animation/requestAnimationFrame.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/contain/arc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/contain/cubic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/contain/line.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/contain/path.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/contain/polygon.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/contain/quadratic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/contain/text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/contain/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/contain/windingLine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/container/Group.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/core/BoundingRect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/core/GestureMgr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/core/LRU.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/core/PathProxy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/core/arrayDiff.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/core/bbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/core/curve.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/core/env.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/core/event.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/core/guid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/core/log.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/core/matrix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/core/timsort.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/core/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/core/vector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/dom/HandlerProxy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/CompoundPath.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/Displayable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/Gradient.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/Image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/LinearGradient.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/Path.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/Pattern.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/RadialGradient.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/States.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/Style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/Text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/helper/poly.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/helper/roundRect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/helper/smoothBezier.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/helper/smoothSpline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/mixin/RectText.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/mixin/Stateful.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/shape/Arc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/shape/BezierCurve.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/shape/Circle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/shape/Droplet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/shape/Ellipse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/shape/Heart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/shape/Isogon.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/shape/Line.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/shape/Polygon.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/shape/Polyline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/shape/Rect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/shape/Ring.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/shape/Rose.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/shape/Sector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/shape/Star.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/graphic/shape/Trochoid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/mixin/Animatable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/mixin/Draggable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/mixin/Eventful.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/mixin/Transformable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/svg/Painter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/svg/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/svg/graphic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/svg/svg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/tool/color.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/tool/path.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/tool/transformPath.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/vml/Painter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/vml/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/vml/graphic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/vml/vml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/lib/zrender.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/Element.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/Handler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/Layer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/Painter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/Storage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/animation/Animation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/animation/Animator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/animation/Clip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/animation/easing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/animation/requestAnimationFrame.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/contain/arc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/contain/cubic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/contain/line.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/contain/path.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/contain/polygon.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/contain/quadratic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/contain/text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/contain/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/contain/windingLine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/container/Group.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/core/BoundingRect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/core/GestureMgr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/core/LRU.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/core/PathProxy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/core/arrayDiff.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/core/bbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/core/curve.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/core/env.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/core/event.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/core/guid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/core/log.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/core/matrix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/core/timsort.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/core/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/core/vector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/dom/HandlerProxy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/CompoundPath.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/Displayable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/Gradient.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/Image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/LinearGradient.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/Path.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/Pattern.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/RadialGradient.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/States.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/Style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/Text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/helper/poly.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/helper/roundRect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/helper/smoothBezier.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/helper/smoothSpline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/mixin/RectText.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/mixin/Stateful.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/shape/Arc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/shape/BezierCurve.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/shape/Circle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/shape/Droplet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/shape/Ellipse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/shape/Heart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/shape/Isogon.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/shape/Line.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/shape/Polygon.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/shape/Polyline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/shape/Rect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/shape/Ring.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/shape/Rose.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/shape/Sector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/shape/Star.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/graphic/shape/Trochoid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/mixin/Animatable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/mixin/Draggable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/mixin/Eventful.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/mixin/Transformable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/svg/Painter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/svg/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/svg/graphic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/svg/svg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/tool/color.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/tool/path.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/tool/transformPath.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/vml/Painter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/vml/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/vml/graphic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/vml/vml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/zrender/src/zrender.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/section2.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/量子追踪UI.jpg" afterPath="$PROJECT_DIR$/量子追踪UI.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/section1.html" afterPath="$PROJECT_DIR$/section1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/echarts.js" afterPath="$PROJECT_DIR$/src/js/echarts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/section1.js" afterPath="$PROJECT_DIR$/src/js/section1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/section2.js" afterPath="$PROJECT_DIR$/src/js/section2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/section3.js" afterPath="$PROJECT_DIR$/src/js/section3.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/node_modules/echarts/dist/echarts.min.js" afterPath="$PROJECT_DIR$/src/js/echarts.min.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -1021,8 +27,8 @@
       <file leaf-file-name="section3.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/section3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="113" column="9" lean-forward="false" selection-start-line="108" selection-start-column="3" selection-end-line="113" selection-end-column="9" />
+            <state relative-caret-position="194">
+              <caret line="90" column="20" lean-forward="true" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
               <folding>
                 <element signature="e#0#50#0" expanded="false" />
               </folding>
@@ -1033,9 +39,11 @@
       <file leaf-file-name="section2.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/section2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="3476" column="28" lean-forward="true" selection-start-line="3476" selection-start-column="28" selection-end-line="3476" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="764">
+              <caret line="3513" column="0" lean-forward="false" selection-start-line="3513" selection-start-column="0" selection-end-line="3513" selection-end-column="0" />
+              <folding>
+                <marker date="1483016608000" expanded="true" signature="0:1" ph="/** Created by zhangxingxing on 2016/12/29. ...*/" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1043,8 +51,18 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="180">
               <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="backup.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2986">
+              <caret line="244" column="25" lean-forward="false" selection-start-line="244" selection-start-column="25" selection-end-line="244" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -1053,24 +71,31 @@
       <file leaf-file-name="section1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/section1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="127" column="38" lean-forward="false" selection-start-line="127" selection-start-column="38" selection-end-line="127" selection-end-column="38" />
+            <state relative-caret-position="531">
+              <caret line="217" column="6" lean-forward="false" selection-start-line="217" selection-start-column="6" selection-end-line="217" selection-end-column="6" />
               <folding>
-                <element signature="n#style#0;n#h4#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#1;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1079,8 +104,8 @@
       <file leaf-file-name="section1.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/section1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="292" column="9" lean-forward="false" selection-start-line="292" selection-start-column="9" selection-end-line="292" selection-end-column="9" />
+            <state relative-caret-position="112">
+              <caret line="339" column="31" lean-forward="true" selection-start-line="339" selection-start-column="31" selection-end-line="339" selection-end-column="31" />
               <folding>
                 <element signature="e#0#50#0" expanded="false" />
               </folding>
@@ -1126,8 +151,8 @@
         <option value="$PROJECT_DIR$/main.html" />
         <option value="$PROJECT_DIR$/node_modules/echarts/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/js/section2.js" />
-        <option value="$PROJECT_DIR$/section1.html" />
         <option value="$PROJECT_DIR$/src/js/section3.js" />
+        <option value="$PROJECT_DIR$/section1.html" />
         <option value="$PROJECT_DIR$/src/js/section1.js" />
       </list>
     </option>
@@ -1140,10 +165,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="948" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -1160,94 +184,54 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="liangzi" />
+              <option name="myItemId" value="量子追踪" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="liangzi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="量子追踪" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="liangzi" />
+              <option name="myItemId" value="量子追踪" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="liangzi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="量子追踪" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="liangzi" />
+              <option name="myItemId" value="量子追踪" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="liangzi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="量子追踪" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liangzi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liangzi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="echarts.js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liangzi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="liangzi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1271,18 +255,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <method />
-    </configuration>
-    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -1295,10 +267,19 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
-    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" value="" />
-      <option name="executablePath" />
-      <option name="filePath" />
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -1347,11 +328,13 @@
       <workItem from="1482837627263" duration="6052000" />
       <workItem from="1482931737809" duration="12570000" />
       <workItem from="1482999124260" duration="12343000" />
+      <workItem from="1483021267319" duration="3021000" />
+      <workItem from="1483064347803" duration="7071000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37218000" />
+    <option name="totallyTimeSpent" value="47310000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1363,26 +346,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="948" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17708333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17678571" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1416,21 +399,28 @@
         <state relative-caret-position="2185">
           <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#1;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1439,10 +429,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4636">
           <caret line="244" column="25" lean-forward="false" selection-start-line="244" selection-start-column="25" selection-end-line="244" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1458,9 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1491,21 +475,28 @@
         <state relative-caret-position="2185">
           <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#1;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1514,10 +505,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1533,9 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1558,21 +543,28 @@
         <state relative-caret-position="300">
           <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="50" />
           <folding>
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#1;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1589,9 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1607,9 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1636,17 +622,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../igraph/JWLetter/src/main/webapp/WEB-INF/views/index.jsp" />
     <entry file="file://$USER_HOME$/Desktop/智察/首页图表信息/统计结果.html" />
-    <entry file="file://$PROJECT_DIR$/backup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="856">
-          <caret line="244" column="25" lean-forward="false" selection-start-line="244" selection-start-column="25" selection-end-line="244" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/style3.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2490">
@@ -1655,25 +630,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/echarts/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/echarts/package.json" />
     <entry file="file://$PROJECT_DIR$/src/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="2815" column="12" lean-forward="false" selection-start-line="2815" selection-start-column="12" selection-end-line="2815" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/section2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-734">
-          <caret line="69" column="9" lean-forward="false" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1689,70 +650,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/echarts/index.simple.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/echarts/extension/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/echarts/dist/echarts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/echarts/dist/echarts.common.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/zrender/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1539">
-          <caret line="81" column="42" lean-forward="false" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/echarts/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/echarts/index.simple.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/echarts/extension/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/echarts/dist/echarts.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/echarts/dist/echarts.common.min.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/zrender/package.json" />
+    <entry file="file://$PROJECT_DIR$/node_modules/echarts/index.js" />
     <entry file="file://$PROJECT_DIR$/../igraph/JWLetter/src/main/webapp/WEB-INF/views/graph.jsp" />
     <entry file="file://$PROJECT_DIR$/../igraph/JWLetter/src/main/webapp/js/dist/chart/bar.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/echarts/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/echarts/webpack.config.js" />
     <entry file="file://$PROJECT_DIR$/src/js/echarts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1769,52 +675,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/section1.html">
+    <entry file="file://$PROJECT_DIR$/src/js/section2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="127" column="38" lean-forward="false" selection-start-line="127" selection-start-column="38" selection-end-line="127" selection-end-column="38" />
+        <state relative-caret-position="764">
+          <caret line="3513" column="0" lean-forward="false" selection-start-line="3513" selection-start-column="0" selection-end-line="3513" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#1;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1483016608000" expanded="true" signature="0:1" ph="/** Created by zhangxingxing on 2016/12/29. ...*/" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/section3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="113" column="9" lean-forward="false" selection-start-line="108" selection-start-column="3" selection-end-line="113" selection-end-column="9" />
+        <state relative-caret-position="194">
+          <caret line="90" column="20" lean-forward="true" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
           <folding>
             <element signature="e#0#50#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/section2.js">
+    <entry file="file://$PROJECT_DIR$/section2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="3476" column="28" lean-forward="true" selection-start-line="3476" selection-start-column="28" selection-end-line="3476" selection-end-column="28" />
+        <state relative-caret-position="-2034">
+          <caret line="69" column="9" lean-forward="false" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2986">
+          <caret line="244" column="25" lean-forward="false" selection-start-line="244" selection-start-column="25" selection-end-line="244" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/section1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="217" column="6" lean-forward="false" selection-start-line="217" selection-start-column="6" selection-end-line="217" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#div#1;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/section1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="292" column="9" lean-forward="false" selection-start-line="292" selection-start-column="9" selection-end-line="292" selection-end-column="9" />
+        <state relative-caret-position="112">
+          <caret line="339" column="31" lean-forward="true" selection-start-line="339" selection-start-column="31" selection-end-line="339" selection-end-column="31" />
           <folding>
             <element signature="e#0#50#0" expanded="false" />
           </folding>

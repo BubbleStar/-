@@ -26,6 +26,15 @@
             height: 500px;
             background-color: rgb(242,243,243);
         }
+        .textCenter{
+            /*display: inline-block;*/
+            height: 50px;
+            float: left;
+            display: inline-flex;
+            display: -webkit-inline-flex;
+            justify-content: center;
+            align-items: center;
+        }
     </style>
 </head>
 <body>
@@ -38,7 +47,9 @@
             <div class="moNav"><img id="imgAutoTaskTip" src="src/img/Message_tiny.gif"><a target="report" href="Pages/Self.aspx" pid="1" id="aSelf" class="selA" onclick="setLeftMenuFocus(this);">用户中心</a><a href="#" id="aLogout" class="selA">退出</a></div>
         </div>
     </div>
-    <br>
+    <div style="width: 100%;height: 100px;display: flex;align-items: flex-end;margin-bottom: 20px;font-size: larger">
+        手机>手机数码>非合约机>调查品牌：小米、Oppo
+    </div>
     <div class="sectionNav">
         <button id="brand" class="btn active">品牌分析</button>
         <button id="competitor" class="btn">竞品分析</button>
@@ -92,8 +103,8 @@
         </div>
         <div style="margin-top: 20px;">
             <h4>2.两两品牌重合度</h4>
-            <div style="height: 500px;margin-top: 30px;">
-                    <div class="form-group form-inline" id="graph8" style="height:100%;text-align: center">
+            <div style="height: 400px;margin-top: 30px;">
+                    <div class="form-group form-inline" id="graph8" style="text-align: center;">
                         <select name="" class="form-control" style="display: inline-block;width: 30%">
                             <option value="">品牌A</option>
                         </select>
@@ -103,6 +114,21 @@
                         </select>
                         <span>的重合</span>
                         <button class="btn btn-primary" style="margin-left: 20px;">查询</button>
+                    </div>
+                    <div style="margin: 30px auto;overflow: hidden;width: 73%">
+                        <div class="textCenter" style="width:30%;background-color:#e9b09a;">品牌A独有15%</div>
+                        <div class="textCenter" style="width: 20%;background-color:#cb6b47">品牌AB重合率61%</div>
+                        <div class="textCenter" style="width: 50%;background-color:#8ac3a9;">品牌B24%</div>
+                    </div>
+                    <div style="margin: 30px auto;overflow: hidden;width: 73%">
+                        <div class="textCenter" style="width: 30%;;background-color:#e9b09a;">品牌A独有15%</div>
+                        <div class="textCenter" style="width: 20%;background-color:#cb6b47;">品牌AB重合率61%</div>
+                        <div class="textCenter" style="width: 50%;background-color:#8ac3a9;">品牌B24%</div>
+                    </div>
+                    <div style="margin: 30px auto;overflow: hidden;width: 73%">
+                        <div class="textCenter" style="width: 30%;background-color:#e9b09a;">品牌A独有15%</div>
+                        <div class="textCenter" style="width: 20%;background-color:#cb6b47;">品牌AB重合率61%</div>
+                        <div class="textCenter" style="width: 50%;background-color:#8ac3a9;">品牌B24%</div>
                     </div>
             </div>
         </div>
@@ -151,13 +177,6 @@
 <script src="src/js/echarts.js"></script>
 
 <script src="src/js/echarts.min.js"></script>
-
-<!--<script src="src/js/esl.js"></script>-->
-<script src="src/js/section1.js"></script>
-
-<script src="src/js/section2.js"></script>
-<script src="src/js/section3.js"></script>
-
 <script>
     var brandAnalysis = document.getElementById('brandAnalysis');
     var competitorAnalysis = document.getElementById('competitorAnalysis');
@@ -198,6 +217,39 @@
     });
 
 </script>
+
+<script>
+
+    var req = {
+           first_catalog : '手机',
+           second_catalog : '手机通讯',
+           third_catalog : '对讲机'
+    };
+    
+    // var bar_brand = [];
+    // var bar_mobile = [];
+    // var bar_pc = [];
+
+    // var line = [];
+    // var line_pc = [];
+    // var line_mobile = [];
+    // var line_average = [];
+    // var line_date = [];
+
+       
+        var focus = "";
+        var bar;
+        var line;
+  
+
+</script>
+
+
+<script src="src/js/section1.js"></script>
+
+<script src="src/js/section2.js"></script>
+<script src="src/js/section3.js"></script>
+
 
 </body>
 </html>
